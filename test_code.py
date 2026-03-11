@@ -8,6 +8,8 @@ def calculate_average(numbers):
     return avg
 
 def find_max(numbers):
+    
+    x = 0
     max = numbers[0]
     for i in numbers:
         if i > max:
